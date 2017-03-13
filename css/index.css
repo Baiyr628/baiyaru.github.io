@@ -1,0 +1,259 @@
+/*header部分的CSS*/
+header{
+	background: #383a3d;
+    height: 2rem;
+    padding: 1rem 1.6rem;
+    position: relative;
+    display: flex;
+}
+ header .find{
+ 	color: #eaeaeb;	
+	flex: 2;
+}
+header .find i{
+	display: inline-block;
+	width: 1rem;
+	line-height: 2rem;
+	background: rgba(0, 0, 0, 0) url("../svg/back.svg") no-repeat scroll center center / cover ;
+    height: 100%;   
+    line-height: 2rem;
+}
+header .find span{
+	font-size: 1.6rem;
+	line-height: 2rem;
+	vertical-align: top;
+}
+header .title{
+	flex: 8;
+	color: #eaeaeb;	
+	line-height: 2rem;
+	font-size:1.7rem ;
+	text-align: center;
+}
+header .camera{
+	flex: 1;
+	line-height: 2rem;
+	background: rgba(0, 0, 0, 0) url("../svg/friendcircle-camera.svg") no-repeat scroll center center / cover ;
+}
+/*banner部分的CSS*/
+.banner{
+	height: 21rem;
+    position: relative;
+    width: 100%;
+    background: url(../img/friendcircle-banner.png) no-repeat scroll center center / cover ;
+}
+.banner .personage{
+	position: absolute;
+	bottom: 1.6rem;
+	right: 1.6rem;
+}
+.banner .personage .favicon{
+	float: right;
+	width: 4.8rem;
+	height: 4.8rem;
+	margin-left: 1.2rem;
+	border: 1px solid #FFF;
+	border-radius: .4rem;
+	background: url(../img/pic1.jpg) no-repeat scroll center center / cover;
+}
+.banner .personage .name{
+	float: right;
+	line-height: 4.8rem;
+	font-size: 1.6rem;
+	color: #fff;
+	text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
+}
+.banner .dot{
+	position: absolute;
+	display: inline-block;
+	right: 1.1rem;
+	bottom: 5.9rem;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background-color: red;
+}
+/*内容部分的CSS*/
+.content{
+	border-bottom: .1rem solid #f3f3f3;
+	padding: 1.6rem;
+}
+.head_img{
+    border-radius: 0.4rem;
+    float: left;
+    height: 4rem;
+    width: 4rem;
+}
+.contain{
+	margin-left: 4.8rem;
+    margin-right: 1.6rem;
+}
+.cont_name{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #41454d;
+	margin-bottom: .2rem;
+}
+.cont_title{
+	width: 100%;
+	color: #41454d;
+	font-size: 1.4rem;
+}
+.details{
+	width: 100%;
+	height: 4rem;
+	background-color: #f7f7f7;
+	padding: .6rem;
+	margin-top: .8rem;
+}
+.details .det_img{
+	width: 4rem;
+	height: 4rem;
+	float: left;
+	margin-right: .6rem;
+}
+.details .det_text{
+	display: inline-block;
+	width: 78%;
+	height: 4rem;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	float: left;
+	color: #41454d;
+}
+.opinion{
+	width: 100%;
+	font-size: 1.2rem;
+	color: #80858c;
+	margin: 1.2rem 0;
+	height: 1.7rem;
+}
+.opinion i{
+	display: inline-block;
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-right: .4rem;
+}
+.opinion p{
+	width: 5rem;
+	float: left;
+}
+.opinion .assist{
+	width: 7.1rem;
+	float: left;
+}
+.opinion .assist .pic {
+	 background: rgba(0, 0, 0, 0) url("../svg/state-thumbs-up.svg") repeat scroll 0 0 / cover ;
+}
+.opinion .assist .pic1{
+	background: url(../img/agree.png) repeat scroll 0 0 / cover ;
+}
+.opinion .comment{
+	width: 7.1rem;
+	float: left;
+}
+.opinion .comment i{
+	background: rgba(0, 0, 0, 0) url("../svg/state-comment.svg") repeat scroll 0 0 / cover ;
+}
+.opinion .dele{
+	width: 7.1rem;
+	float: left;
+}
+.opinion .dele i{
+    background: url(../svg/state-delete.svg) repeat scroll 0 0 / cover ;
+
+}
+.time{
+	width: 100%;
+	display: block;
+	margin-bottom: .8rem;
+}
+
+ul li{
+	margin-bottom: .4rem;
+	line-height: 1.8rem;
+	color: #41454d;
+	font-size: 1.4rem;
+}
+ul li a{
+	font-size: 1.4rem;
+	color: #5bafff;
+}
+.more,.collect {
+	margin-top: .8rem;
+	font-size: 1.2rem;
+	color: #acb1b7;
+}
+.more p,.more p{
+	display: inline-block;
+}
+.down {
+	display: inline-block;
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-left: .4rem;
+	background: url("../svg/down.svg") 0rem .4rem;
+	background-size: cover;
+}
+.up {
+	display: inline-block;
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-left: .4rem;
+	background: url("../svg/UP.svg") 0rem .4rem;
+	background-size: cover;
+}
+.img_group{
+	overflow: hidden;
+}
+.img1 img{
+	width: 17.2rem;
+	height: 17.2rem;
+	float: left;
+}
+.img2 img {
+	width: 13.4rem;
+	height: 13.2rem;
+	margin-right: .4rem;
+	float: left;
+}
+.img4 img{
+	width: 13.4rem;
+	height: 13.2rem;
+	margin:0 .4rem .4rem 0;
+	float: left;
+}
+.img7 img{
+	width: 8.8rem;
+	height: 8.8rem;
+	margin:0 .4rem .4rem 0;
+	float: left;
+}
+/*点击图片实现预览效果*/
+.img_details{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.8);
+	z-index: 99;
+	display: none;
+}
+.close{
+	float: right;
+	padding: 2rem 3rem;
+	font-size: 3rem;
+	color: white;
+}
+.img_details a{
+	height: 100%;
+	box-sizing: border-box;
+	display: block;
+	padding-top: 240px;
+	text-align: center;
+}
+
