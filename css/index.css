@@ -6,7 +6,7 @@ header{
     padding: 1rem 1.6rem;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
  header .find{
  	color: #eaeaeb;	
@@ -30,13 +30,14 @@ header .title{
 	line-height: 2rem;
 	font-size:1.7rem ;
 	text-align: center;
+	margin: 0;
 
 }
 header .camera{
 	width: 2rem;
 	line-height: 2rem;
 	margin: 0;
-	background: rgba(0, 0, 0, 0) url("../svg/friendcircle-camera.svg") no-repeat scroll center center  ;
+	background: rgba(0, 0, 0, 0) url("../svg/friendcircle-camera.svg") no-repeat scroll center ;
 }
 /*banner部分的CSS*/
 .banner{
