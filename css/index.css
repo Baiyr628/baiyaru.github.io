@@ -166,6 +166,8 @@ header .camera{
 }
 .time{
 	width: 100%;
+	font-size: 1.2rem;
+	color: #80858c;
 	display: block;
 	margin-bottom: .8rem;
 }
