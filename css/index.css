@@ -1,14 +1,16 @@
 /*header部分的CSS*/
+
 header{
 	background: #383a3d;
     height: 2rem;
     padding: 1rem 1.6rem;
     position: relative;
     display: flex;
+    justify-content: center;
 }
  header .find{
  	color: #eaeaeb;	
-	flex: 2;
+ 	margin: 0;
 }
 header .find i{
 	display: inline-block;
@@ -24,16 +26,17 @@ header .find span{
 	vertical-align: top;
 }
 header .title{
-	flex: 8;
 	color: #eaeaeb;	
 	line-height: 2rem;
 	font-size:1.7rem ;
 	text-align: center;
+
 }
 header .camera{
-	flex: 1;
+	width: 2rem;
 	line-height: 2rem;
-	background: rgba(0, 0, 0, 0) url("../svg/friendcircle-camera.svg") no-repeat scroll center center / cover ;
+	margin: 0;
+	background: rgba(0, 0, 0, 0) url("../svg/friendcircle-camera.svg") no-repeat scroll center center  ;
 }
 /*banner部分的CSS*/
 .banner{
@@ -105,6 +108,7 @@ header .camera{
 	background-color: #f7f7f7;
 	padding: .6rem;
 	margin-top: .8rem;
+	display: table;
 }
 .details .det_img{
 	width: 4rem;
@@ -113,13 +117,15 @@ header .camera{
 	margin-right: .6rem;
 }
 .details .det_text{
-	display: inline-block;
-	width: 78%;
-	height: 4rem;
-	font-size: 1.3rem;
-	line-height: 2rem;
-	float: left;
-	color: #41454d;
+
+    display: table-cell;
+    width: 81%;
+    vertical-align: middle;
+    height: 4rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+ 
+    color: #41454d;
 }
 .opinion{
 	width: 100%;
@@ -208,29 +214,28 @@ ul li a{
 }
 .img_group{
 	overflow: hidden;
+	
+	margin: -2px;
 }
 .img1 img{
 	width: 17.2rem;
 	height: 17.2rem;
 	float: left;
 }
-.img2 img {
-	width: 13.4rem;
-	height: 13.2rem;
-	margin-right: .4rem;
+
+.img2 img{
+	width: 50%;
+	height: 50%;
+	padding:2px;
 	float: left;
-}
-.img4 img{
-	width: 13.4rem;
-	height: 13.2rem;
-	margin:0 .4rem .4rem 0;
-	float: left;
+	box-sizing: border-box;
 }
 .img7 img{
-	width: 8.8rem;
-	height: 8.8rem;
-	margin:0 .4rem .4rem 0;
+	width: 33.3%;
+	height: 33.3%;
+	padding:2px;
 	float: left;
+	box-sizing: border-box;
 }
 /*点击图片实现预览效果*/
 .img_details{

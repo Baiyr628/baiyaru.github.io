@@ -10,7 +10,7 @@ $(function(){
 		}else if(img_len == 2){
 			img.addClass("img2");
 		}else if(img_len > 2 && img_len < 5){
-			img.addClass("img4");
+			img.addClass("img2");
 		}else if(img_len > 4){
 			img.addClass("img7");
 		}else{
